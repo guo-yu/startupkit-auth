@@ -1,6 +1,6 @@
 {
   "name": "startupkit-auth",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "the auth service of startupkit",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/turingou/startupkit-auth/issues"
+  },
+  "dependencies": {
+    "express-scaffold": "*"
   }
 }

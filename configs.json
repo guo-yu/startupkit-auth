@@ -1,0 +1,13 @@
+{
+    "name": "auth",
+    "port": 9000,
+    "desc": "the auth service of startupkit",
+    "views": "./views",
+    "public": "./public",
+    "session": {
+        "store": true
+    },
+    "database": {
+        "name": "startupkit_auth"
+    }
+}
