@@ -4,8 +4,9 @@ the auth service of startupkit
 
 ### Installation
 
-[![NPM](https://nodei.co/npm/startupkit-auth.png)](https://nodei.co/npm/startupkit-auth/) [![NPM](https://nodei.co/npm-dl/startupkit-auth.png?months=6)](https://nodei.co/npm/startupkit-auth/)
-
+```
+$ npm install startupkit-auth
+```
 
 ### Example
 ````javascript

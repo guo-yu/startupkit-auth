@@ -1,0 +1,13 @@
+extends layout
+
+block title
+    | Opps...
+
+block content
+    #content
+        .container.clearfix
+            .row
+                #error.col-lg-3.signin 
+                    .sign-form
+                        h3.form-title #{code}
+                        .desc #{error}

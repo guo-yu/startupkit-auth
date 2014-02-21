@@ -1,0 +1,18 @@
+extends layout
+
+block title
+    | Sign in
+
+block content
+    #content
+        .container.clearfix
+            .row
+                #signin.col-lg-3.signin
+                    form.sign-form.clearfix(method="POST",action="/signin?callback=#{callback}")
+                        h3.form-title #{sys.name}
+                        .form-group
+                            input(type="text",name="username",placeholder="Account").form-control
+                        .form-group
+                            input(type="password",name="password",placeholder="Password").form-control
+                        .form-group.submit-group
+                            button(type="submit").col-lg-12.btn.btn-success sign in
